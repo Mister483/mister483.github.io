@@ -20,6 +20,18 @@ main {
     text-align: center;
 }
 
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 2vh;
+    margin: auto;
+}
+
+td {
+    border: 1px solid black;
+    padding: 1px;
+}
+
 footer {
     margin-top: 5%;
     text-align: center;
@@ -38,6 +50,12 @@ footer {
     margin-left: 10%;
     margin-right: 10%;
     padding: 27px;
+}
+
+.consultar-precios {
+    a:any-link {
+        color: blue;
+    }
 }
 
 .hr {
