@@ -41,6 +41,12 @@ footer {
 address {
     font-style: normal;
     font-size: 20px;
+
+    a:any-link {
+        color: blue;
+        font-weight: bold;
+        text-decoration: none;
+    }
 }
 
 header,
@@ -58,7 +64,7 @@ footer {
     color: white !important;
 }
 
-.consultar-precios {
+.ver-precios {
     a:any-link {
         color: blue;
     }
