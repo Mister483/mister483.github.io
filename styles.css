@@ -52,11 +52,10 @@ footer {
     padding: 27px;
 }
 
-.btn:any-link {
-    color: white !important;
-}
-
 .ver-precios {
+    background-color: greenyellow !important;
+    border: 2px solid greenyellow !important;
+
     transform: scale(0.9);
     transition: transform 0.3s ease;
 
@@ -95,10 +94,10 @@ footer {
 
     display: inline-block;
     margin: 5px;
-}
 
-.page-title a {
-    text-decoration: none;
+    a {
+        text-decoration: none;
+    }
 }
 
 .sign {
