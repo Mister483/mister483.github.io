@@ -52,6 +52,23 @@ footer {
     padding: 27px;
 }
 
+#e404 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#subt404 {
+    margin-bottom: 10px;
+}
+
+#subt404-2 {
+    margin-bottom: 100px;
+}
+
+#t404 {
+    margin-bottom: 20px;
+}
+
 .ver-precios {
     background-color: greenyellow !important;
     border: 2px solid greenyellow !important;
