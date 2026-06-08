@@ -52,24 +52,6 @@ footer {
     padding: 27px;
 }
 
-.ver-precios {
-    background-color: greenyellow !important;
-    border: 2px solid greenyellow !important;
-
-    transform: scale(0.9);
-    transition: transform 0.3s ease;
-
-    a:any-link {
-        color: blue;
-    }
-    &:hover {
-        transform: scale(1);
-    }
-    &:active {
-        transform: scale(0.8);
-    }
-}
-
 .hr {
     border: 1px solid #ebebeb;
     margin: 5px;
@@ -145,4 +127,22 @@ footer {
 
 .subtitle {
     margin: 5px;
+}
+
+.ver-precios {
+    background-color: greenyellow !important;
+    border: 2px solid greenyellow !important;
+
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+
+    a:any-link {
+        color: blue;
+    }
+    &:hover {
+        transform: scale(1);
+    }
+    &:active {
+        transform: scale(0.8);
+    }
 }
