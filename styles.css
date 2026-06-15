@@ -1,8 +1,13 @@
+:root {
+    --primary-color: green;
+}
+
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -66,7 +71,7 @@ footer {
 }
 
 .page-title {
-    background: linear-gradient(to bottom, red, yellow);
+    background: linear-gradient(red, yellow);
     -webkit-background-clip: text; 
     background-clip: text;
     -webkit-text-fill-color: transparent; 
@@ -83,7 +88,7 @@ footer {
 }
 
 .sign {
-    background-color: green;
+    background-color: var(--primary-color);
     color: white;
     border-radius: 5px;
     display: table;
@@ -119,7 +124,7 @@ footer {
 }
 
 .styled-table thead tr {
-    background-color: green;
+    background-color: var(--primary-color);
     color: #ffffff;
     text-align: center;
 }
@@ -129,8 +134,7 @@ footer {
 }
 
 .ver-precios {
-    background-color: greenyellow !important;
-    border: 2px solid greenyellow !important;
+    background-color: greenyellow;
 
     transform: scale(0.9);
     transition: transform 0.3s ease;
