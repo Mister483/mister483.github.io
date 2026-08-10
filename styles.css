@@ -1,17 +1,5 @@
-:root {
-    --primary-color: green;
-}
-
-* {
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-    scroll-behavior: smooth;
-}
-
 body {
     background-color: #ebebeb;
-    margin: 0;
-    padding: 0;
 }
 
 header {
@@ -88,7 +76,7 @@ footer {
 }
 
 .sign {
-    background-color: var(--primary-color);
+    background-color: green;
     color: white;
     border-radius: 5px;
     display: table;
@@ -124,7 +112,7 @@ footer {
 }
 
 .styled-table thead tr {
-    background-color: var(--primary-color);
+    background-color: green;
     color: #ffffff;
     text-align: center;
 }
@@ -148,14 +136,4 @@ footer {
     &:active {
         transform: scale(0.8);
     }
-}
-
-
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
 }
